@@ -148,7 +148,8 @@ const songs = [
 
 const IndexPage = () => {
   const [shownSong, setShownSong] = useState(null)
-  const hash = window.location.hash?.slice(1) || ''
+  const hash =
+    typeof window !== 'undefined' ? window.location.hash?.slice(1) || '' : null
 
   function showHideSong (index) {
     const songIndex = shownSong === index ? null : index
