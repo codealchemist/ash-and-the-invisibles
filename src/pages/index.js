@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { Helmet } from 'react-helmet'
 import logo from '../images/logo.jpg'
@@ -147,11 +148,23 @@ const songs = [
 
 const IndexPage = () => {
   const [shownSong, setShownSong] = useState(null)
+  const hash = window.location.hash?.slice(1) || ''
 
   function showHideSong (index) {
     const songIndex = shownSong === index ? null : index
     setShownSong(songIndex)
   }
+
+  useEffect(() => {
+    if (hash) {
+      const index = songs.findIndex(
+        song => song.title.replaceAll(' ', '-') === hash
+      )
+      if (index !== -1) {
+        setShownSong(index)
+      }
+    }
+  }, [hash])
 
   return (
     <>
@@ -167,9 +180,12 @@ const IndexPage = () => {
 
         {songs.map((song, index) => (
           <>
-            <a href={`#${song.title}`} onClick={() => showHideSong(index)}>
+            <Link
+              to={`#${song.title.replaceAll(' ', '-')}`}
+              onClick={() => showHideSong(index)}
+            >
               {index + 1}- {song.title}
-            </a>
+            </Link>
 
             {shownSong === index && (
               <Lyrics onClick={() => showHideSong(index)}>{song.lyrics}</Lyrics>
