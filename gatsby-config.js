@@ -23,7 +23,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`playfair+display\:400`],
+        fonts: [`playfair+display\:400`, `Courier+Prime\:400`],
         display: 'swap'
       }
     }
