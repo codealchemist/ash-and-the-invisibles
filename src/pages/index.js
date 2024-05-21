@@ -1,6 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import logo from '../images/logo.jpg'
+import '../global.css'
 
 const Page = styled.div`
   display: flex;
