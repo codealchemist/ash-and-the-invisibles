@@ -7,6 +7,7 @@ module.exports = {
     siteUrl: `https://ash-invisibles.netlify.app`
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',

@@ -1,5 +1,6 @@
 import * as React from 'react'
 import styled from 'styled-components'
+import { Helmet } from 'react-helmet'
 import logo from '../images/logo.jpg'
 import '../global.css'
 
@@ -88,19 +89,26 @@ const songs = [
 
 const IndexPage = () => {
   return (
-    <Page>
-      <img alt='Ash And The Invisibles' src={logo} />
+    <>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <title>Ash And The Invisibles</title>
+      </Helmet>
 
-      <Title>SONGS</Title>
+      <Page>
+        <img alt='Ash And The Invisibles' src={logo} />
 
-      {songs.map((song, index) => (
-        <p key={song.title}>
-          {index + 1}- {song.title}
-        </p>
-      ))}
+        <Title>SONGS</Title>
 
-      <Footer>© 2024 Ash And The Invisibles</Footer>
-    </Page>
+        {songs.map((song, index) => (
+          <p key={song.title}>
+            {index + 1}- {song.title}
+          </p>
+        ))}
+
+        <Footer>© 2024 Ash And The Invisibles</Footer>
+      </Page>
+    </>
   )
 }
 
