@@ -35,7 +35,12 @@ module.exports = {
         background_color: '#3a3a3a',
         theme_color: '#1e1e1e',
         display: 'standalone',
-        icon: 'src/images/logo.jpg'
+        display_override: ['standalone', 'fullscreen', 'minimal-ui'],
+        icon: 'src/images/logo.jpg',
+        icon_options: {
+          purpose: 'any maskable'
+        },
+        start_url: '/'
       }
     },
     {
