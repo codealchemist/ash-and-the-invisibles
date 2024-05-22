@@ -5,6 +5,12 @@
   --color-4: #bebebe;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
@@ -14,4 +20,5 @@ body {
   overflow-x: hidden;
   background-color: var(--color-2);
   background-image: url('images/img-noise-250x250.png');
+  overflow-x: hidden;
 }

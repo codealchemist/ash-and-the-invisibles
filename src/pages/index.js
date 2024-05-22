@@ -70,7 +70,7 @@ const Lyrics = styled.pre`
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   margin: 10px 0;
   padding: 30px 20px;
   color: var(--color-3);
@@ -78,6 +78,8 @@ const Lyrics = styled.pre`
   font-family: 'Courier Prime', monospace;
   font-weight: 400;
   z-index: 10;
+  max-width: 100vw;
+  overflow-x: scroll;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
   // Custom borders.
@@ -98,7 +100,7 @@ const Lyrics = styled.pre`
   }
 
   @media (min-width: 360px) {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 `
 
@@ -117,6 +119,14 @@ const LangButton = styled.div`
 
   p {
     margin: 5px 0 0 0;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 2.4rem;
+  }
+
+  @media (min-width: 360px) {
+    font-size: 2.2rem;
   }
 `
 
