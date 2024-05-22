@@ -26,6 +26,23 @@ module.exports = {
         fonts: [`playfair+display\:400`, `Courier+Prime\:400`],
         display: 'swap'
       }
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Ash And The Invisibles',
+        short_name: 'Ash &',
+        background_color: '#3a3a3a',
+        theme_color: '#1e1e1e',
+        display: 'standalone',
+        icon: 'src/images/logo.jpg'
+      }
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/`]
+      }
     }
   ]
 }
