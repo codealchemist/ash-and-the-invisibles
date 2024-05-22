@@ -126,7 +126,7 @@ const LangButton = styled.div`
   }
 
   @media (min-width: 360px) {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
   }
 `
 
