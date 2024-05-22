@@ -241,6 +241,17 @@ const IndexPage = () => {
     <>
       <Helmet>
         <meta charSet='utf-8' />
+        <meta property='og:title' content='Ash And The Invisibles' />
+        <meta property='og:type' content='website' />
+        <meta
+          property='og:url'
+          content='https://ash-and-the-invisibles.netlify.app'
+        />
+        <meta
+          property='og:image'
+          content='https://ash-and-the-invisibles.netlify.app/static/logo-b521cc64fdfca0a38c9876f383ff8146.jpg'
+        />
+
         <title>Ash And The Invisibles</title>
       </Helmet>
 
