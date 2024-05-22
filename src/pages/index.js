@@ -75,12 +75,12 @@ const Lyrics = styled.pre`
   padding: 30px 20px;
   color: var(--color-3);
   background: var(--color-1);
-  font-family: 'Courier Prime', monospace;
-  font-weight: 400;
   z-index: 10;
   max-width: 100vw;
   overflow-x: scroll;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  font-family: 'Courier Prime', monospace;
+  font-weight: 400;
 
   // Custom borders.
   --mask: conic-gradient(
@@ -95,12 +95,16 @@ const Lyrics = styled.pre`
   -webkit-mask: var(--mask);
   mask: var(--mask);
 
-  @media (min-width: 768px) {
-    font-size: 1.5rem;
-  }
-
   @media (min-width: 360px) {
     font-size: 0.7rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 0.9rem;
+  }
+
+  @media (min-width: 800px) {
+    font-size: 1rem;
   }
 `
 
