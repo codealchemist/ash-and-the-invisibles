@@ -1,4 +1,4 @@
-const lyrics = `
+const en = `
 The Bar Next Door To Hell
 
 --( INTRO )---------------------------
@@ -84,5 +84,99 @@ That reunites
 Saints, men and demons
 
 `
+
+const es = `
+El Bar Junto al Infierno
+
+--( INTRO )---------------------------
+
+Vivir es un asunto espinoso
+Te reciben con un golpe
+Muchos más golpes
+Te pavimentan el camino al cielo
+Si tan solo la gracia
+Es lo que tu corazón busca
+Se romperá
+No insistas
+En ese pensamiento
+O serás el culpable
+
+--( ESTOFA )---------------------------
+Vivir tiene un costo
+No puedes rechazar el trato
+Amor duro
+Es la forma de enseñar del mundo
+Los sabios realmente saben
+Cómo aguantar una paliza
+Leer el dolor
+No es en vano
+Porque las palabras son pésimos profesores
+
+Si tan solo la verdad
+Es lo que tu corazón busca
+Fallará
+Blanco o negro
+Son solo engaños
+Todo es gris
+
+--( ESTRIBO )---------------------------
+Estaré bien
+Tomando vino
+En el bar junto al infierno
+Con el tiempo
+Todo hombre debe pasar por ahí
+Para conocer al diablo
+
+Cualquier lugar
+Es tan malo como cualquier otro
+Para tu tumba
+La única riqueza
+Que te dan
+Es tu propia muerte
+
+--( ESTROFA )---------------------------
+Puede que sepas
+Lo que es tu alma
+Cuando unes
+Toda tu maldad
+Y lo bueno
+Enfrentando a tus demonios
+
+Cada punto alto
+Y cada punto bajo
+Son parte de este gran rompecabezas
+No culpes a Dios
+Por tu destino
+La buena suerte no te hace más fuerte
+
+Abandona toda esperanza
+De encontrar un significado
+Y el resentimiento se desvanece
+Pérdida y ganancia
+La misma aflicción
+Sólo cara y cruz
+
+--( ESTRIBO )---------------------------
+Estaré bien
+Tomando vino
+En el bar junto al cielo
+Con el tiempo
+Todo hombre debe pasar por ahí
+Para conocer a un ángel
+
+Cuando se acabe el tiempo
+Me podrán encontrar
+Embriagándome con mis compañeros
+Nos vemos pronto
+En el bar
+Que reúne
+Santos, hombres y demonios
+A Través de los Tiempos
+`
+
+const lyrics = {
+  en,
+  es
+}
 
 export default lyrics

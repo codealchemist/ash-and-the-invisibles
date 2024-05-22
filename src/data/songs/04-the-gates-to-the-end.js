@@ -1,4 +1,4 @@
-const lyrics = `
+const en = `
 The Gates To The End
 
 --( VERSE )---------------------------
@@ -70,5 +70,89 @@ Gazing at the abyss,
 Got some glimpses of myself.
 
 `
+
+const es = `
+Las Puertas del Fin
+
+--( ESTROFA )---------------------------
+
+Quietud en la noche presento una tormenta,
+Y viene desde dentro, estoy mejor en soledad,
+La vida es un enigma,
+El pasado me acecha dentro de mi cabeza,
+El olvido mató mis anhelos,
+El resto quedó enterrado por el dolor,
+Estoy solo esperando el cambio de marea,
+Mi alma ya se aquiet.
+
+He luchado contra mi destino sin razón alguna
+Desperdiciando mi tiempo, ya casi es tarde, ahora,
+Difícil es dejarse ir,
+Pero aprendí que es la manera de crecer,
+He dejado de buscar la verdad,
+Mi respiración es todo lo que me queda,
+Voy errando a la deriva en lo desconocido
+Sin remordimientos,
+Soñando que estoy despierto.
+
+--( ESTRIBO )---------------------------
+
+Todo está bien,
+Si estas son las Puertas del Fin,
+Porque ya estoy cansado de temerle al final,
+A la noche que se aproxima,
+Me siento entero en soledad,
+Nunca más regresaré a tierra firme,
+Y navegaré derecho hacia la tormenta,
+Para sentir la fuerza del viento.
+
+Contemplando mis miedos,
+Tuve atisbos de mi ser.
+
+--( ESTROFA )---------------------------
+
+Pagué amor con dolor,
+Es una fuerza incontrolable,
+La vida es como un río,
+El pasado me espera al final,
+Despojado de todos mis pensamientos,
+Trato de conocerme a mí mismo,
+Voy a la deriva hacia lo desconocido en dulce silencio,
+Soñando que estoy despierto.
+
+--( ESTRIBO )---------------------------
+
+Oye, todo está bien,
+Una vez aceptas que todo tiene fin,
+He dejado de temer,
+A la noche que se acerca a mi puerta,
+Esta libertad es felicidad,
+El miedo es muerte,
+Deja de apagar todos tus sueños,
+Corre conmigo hasta el final,
+Sigamos corriendo hasta el borde del acantilado,
+¡Besémonos y abramos nuestras alas!
+
+SOLO
+
+--( ESTRIBO )---------------------------
+Oye, todo está bien,
+Cuando entiendes que la muerte es parte de este sueño,
+Y dejas de temer,
+Abandono el deseo de controlarlo todo,
+Me rindo al presente,
+Libre y entero está mi alma,
+Ya no anhelo más,
+Me acerco al origen,
+Vislumbro el origen de la ilusión
+
+Contemplando el abismo,
+Tuve atisbos de mi ser.
+`
+
+const lyrics = {
+  en,
+  es
+}
 
 export default lyrics
