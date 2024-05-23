@@ -4,6 +4,8 @@ import logo from '../images/logo.jpg'
 import Page from '../components/Page'
 import Footer from '../components/Footer'
 import Songs from '../components/Songs'
+import Members from '../components/Members'
+import Spacer from '../components/Spacer'
 import '../global.css'
 
 const IndexPage = () => {
@@ -29,7 +31,8 @@ const IndexPage = () => {
         <img alt='Ash And The Invisibles' src={logo} />
 
         <Songs />
-
+        <Spacer />
+        <Members />
         <Footer>© 2024 Ash And The Invisibles</Footer>
       </Page>
     </>

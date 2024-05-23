@@ -23,6 +23,15 @@ export default function Songs () {
   function showHideSong (index) {
     const songIndex = shownSong === index ? null : index
     setShownSong(songIndex)
+
+    // If no song is currently shown remove the URL hash.
+    if (songIndex === null) {
+      window.history.pushState(
+        '',
+        document.title,
+        window.location.pathname + window.location.search
+      )
+    }
   }
 
   function chooseSongLang ({ event, lang, index }) {
@@ -65,7 +74,10 @@ export default function Songs () {
 
   return (
     <>
-      <Title>SONGS</Title>
+      <Title>
+        SONGS
+        <i>Click / tap song to show lyrics</i>
+      </Title>
 
       {songs.map((song, index) => (
         <React.Fragment key={getTitleId(song.title)}>

@@ -72,7 +72,7 @@ Got some glimpses of myself.
 `
 
 const es = `
-Las Puertas del Fin
+Las Puertas Del Fín
 
 --( ESTROFA )---------------------------
 

@@ -53,7 +53,7 @@ In our hearts once more.
 `
 
 const es = `
-A Través de los Tiempos
+A Través De Los Tiempos
 
 --( ESTROFA )---------------------------
 Esta alma que amanece aquí, 

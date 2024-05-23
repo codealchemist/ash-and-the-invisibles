@@ -39,7 +39,8 @@ const Page = styled.div`
       font-size: 3rem;
     }
 
-    a {
+    a,
+    li {
       font-size: 1.5rem;
     }
 

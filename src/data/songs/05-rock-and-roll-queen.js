@@ -74,7 +74,7 @@ Got nothing to pro-o-ove
 `
 
 const es = `
-La Reina del Rock & Roll
+La Reina Del Rock & Roll
 
 --( ESTROFA )---------------------------
 Mi reina del rock & roll,

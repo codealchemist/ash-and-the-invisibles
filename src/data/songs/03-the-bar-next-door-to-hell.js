@@ -86,7 +86,7 @@ Saints, men and demons
 `
 
 const es = `
-El Bar Junto al Infierno
+El Bar Junto Al Infierno
 
 --( INTRO )---------------------------
 
