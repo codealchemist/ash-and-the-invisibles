@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import Songs from '../components/Songs'
 import Members from '../components/Members'
 import Spacer from '../components/Spacer'
+import Share from '../components/Share'
 import '../global.css'
 
 const IndexPage = () => {
@@ -33,6 +34,8 @@ const IndexPage = () => {
         <Songs />
         <Spacer />
         <Members size='sm' />
+        <Spacer />
+        <Share />
         <Footer>© 2024 Ash And The Invisibles</Footer>
       </Page>
     </>
