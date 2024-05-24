@@ -32,7 +32,7 @@ const IndexPage = () => {
 
         <Songs />
         <Spacer />
-        <Members />
+        <Members size='sm' />
         <Footer>© 2024 Ash And The Invisibles</Footer>
       </Page>
     </>

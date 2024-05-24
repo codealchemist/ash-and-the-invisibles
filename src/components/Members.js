@@ -2,18 +2,30 @@ import React from 'react'
 import Title from './Title'
 import List from './List'
 
-export default function Members () {
+export default function Members ({ size }) {
   return (
     <>
       <Title>MEMBERS</Title>
 
-      <List>
-        <li>Ash: Lead vocals</li>
-        <li>Gastón Rodríguez: Guitar, backing vocals</li>
-        <li>Beto "Cholo" Miranda: Guitar</li>
-        <li>Eric Leiva: Bass guitars, backing vocals</li>
-        <li>Fede Cerdeira: Keyboards</li>
-        <li>Marra: Drums</li>
+      <List size={size}>
+        <li>
+          <b>Ash</b>: Lead vocals
+        </li>
+        <li>
+          <b>Gastón Rodríguez</b>: Guitar, backing vocals
+        </li>
+        <li>
+          <b>Beto "Cholo" Miranda</b>: Guitar
+        </li>
+        <li>
+          <b>Eric Leiva</b>: Bass guitars, backing vocals
+        </li>
+        <li>
+          <b>Fede Cerdeira</b>: Keyboards
+        </li>
+        <li>
+          <b>Marra</b>: Drums
+        </li>
       </List>
     </>
   )
