@@ -15,7 +15,7 @@ export default function Members ({ size }) {
           <b>Gastón Rodríguez</b>: Guitar, backing vocals
         </li>
         <li>
-          <b>Beto "Cholo" Miranda</b>: Guitar
+          <b>El "Cholo" Miranda</b>: Guitar
         </li>
         <li>
           <b>Eric Leiva</b>: Bass guitars, backing vocals
